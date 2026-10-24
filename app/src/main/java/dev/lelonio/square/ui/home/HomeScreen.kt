@@ -81,7 +81,6 @@ import dev.lelonio.square.ui.MainViewModel
 import dev.lelonio.square.ui.components.AppGlyph
 import dev.lelonio.square.ui.components.AppLockup
 import dev.lelonio.square.ui.components.Artwork
-import dev.lelonio.square.ui.components.SquareWordmark
 import androidx.compose.ui.layout.layout
 import androidx.compose.ui.unit.Constraints
 import dev.lelonio.square.ui.glass.LiquidButton
@@ -217,7 +216,7 @@ fun HomeScreen(
     when (state) {
         MainViewModel.UiState.LoggedOut -> Centered {
             AppGlyph(64.dp)
-            SquareWordmark(height = 28.dp)
+            Text(text = stringResource(R.string.app_name), fontWeight = FontWeight.Bold, color = Ink)
             Text(
                 stringResource(R.string.unofficial_client),
                 style = MaterialTheme.typography.bodyMedium,
