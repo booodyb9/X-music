@@ -6,7 +6,7 @@ name: Build
 # secrets to pull requests from forks anyway.
 on:
   push:
-    branches: [master]
+    branches: [master, feature/music-x-arabic]
   pull_request:
   workflow_dispatch:
 
@@ -31,7 +31,7 @@ jobs:
 
       - uses: actions/upload-artifact@v7
         with:
-          name: square-dev-${{ github.sha }}
+          name: music-x-dev-${{ github.sha }}
           path: app/build/outputs/apk/dev/app-universal-dev.apk
           retention-days: 14
           if-no-files-found: error
