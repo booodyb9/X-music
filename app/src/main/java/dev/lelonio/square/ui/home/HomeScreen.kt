@@ -1335,7 +1335,7 @@ private fun YouTubeHome(
                     CircularProgressIndicator(color = Ink, strokeWidth = 2.dp)
                 } else {
                     AppGlyph(64.dp)
-                    SquareWordmark(height = 28.dp)
+                    Text(text = stringResource(R.string.app_name), fontWeight = FontWeight.Bold, color = Ink)
                     Text(
                         stringResource(R.string.youtube_home_empty),
                         style = MaterialTheme.typography.bodyMedium,
