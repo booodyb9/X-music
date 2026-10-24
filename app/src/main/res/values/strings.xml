@@ -635,6 +635,12 @@
     <string name="theme_system">Same as the phone</string>
     <string name="theme_light">Light</string>
     <string name="theme_dark">Dark</string>
+    <string name="music_x_theme_original">Original glass</string>
+    <string name="music_x_theme_cinematic">Cinematic dark</string>
+    <string name="music_x_theme_glass_light">Glass light</string>
+    <string name="music_x_theme_neon_purple">Neon purple</string>
+    <string name="music_x_theme_emerald">Emerald green</string>
+    <string name="music_x_theme_dynamic_red">Dynamic red</string>
     <string name="font_title">Font</string>
     <string name="font_system">Use the phone’s font</string>
     <string name="youtube_quality_auto">Automatic: high on Wi-Fi, low on mobile data</string>
